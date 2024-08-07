@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: F, F, F;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
@@ -47,18 +47,13 @@ body {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     background: linear-gradient(90deg, rgba(119,119,119,1) 0%, rgba(102,102,110,1) 25%, rgba(153,153,161,1) 50%, rgba(230,230,233,1) 75%, rgba(244,244,246,1) 100%);
     background: linear-gradient(90deg, rgba(0,150,199,1) 0%, rgba(72,202,228,1) 50%, rgba(173,232,244,1) 100%);
+    background: var(--light-8);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.header-gradient::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0.5px;
-    background: linear-gradient(90deg, rgba(0,150,199,1) 0%, rgba(72,202,228,1) 50%, rgba(173,232,244,1) 100%);
-    z-index: 10;
+.footer-main {
+    color: var(--light-8);
+    background: black;
 }

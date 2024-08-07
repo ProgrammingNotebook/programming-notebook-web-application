@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Footer from '@/app/components/footer';
 
 export default function UnderConstruction() {
     return (
@@ -8,7 +7,6 @@ export default function UnderConstruction() {
             <div>
                 <p className="text-[30px] p-4">Under Construction</p>
             </div>
-            <Footer />
         </div>
     );
 }

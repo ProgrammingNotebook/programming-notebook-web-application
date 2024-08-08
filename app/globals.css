@@ -57,3 +57,7 @@ body {
     color: var(--light-8);
     background: black;
 }
+
+.forced-font {
+    font-family: "Comfortaa";
+}

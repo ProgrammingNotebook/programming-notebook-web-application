@@ -111,7 +111,7 @@ export default function Header() {
                         </filter>
                         </defs>
             </svg>
-            </span>
+        </span>
             <div>
                 <h1 className="text-l font-bold logo-text">PROGRAMMING</h1>
                 <h1 className="text-l font-bold logo-text">NOTEBOOK</h1>
